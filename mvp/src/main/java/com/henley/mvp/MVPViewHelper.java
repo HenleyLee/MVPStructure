@@ -1,4 +1,4 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.Toast;
 /**
  * MVP模式中IMVPView的实现类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:54
  */
 public class MVPViewHelper implements IMVPView {

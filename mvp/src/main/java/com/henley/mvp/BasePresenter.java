@@ -1,11 +1,11 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 import android.content.Context;
 
 /**
  * 负责完成View与Model间的交互(作为View与Model交互的中间纽带，处理与用户的交互)
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:32
  */
 public class BasePresenter<MVPView extends IMVPView> implements IPresenter<MVPView> {

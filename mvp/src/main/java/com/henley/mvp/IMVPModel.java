@@ -1,4 +1,4 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 /**
  * 负责业务逻辑和实体模型(主要职责是存储、检索、操纵数据，有时也实现一个Model interface用来降低耦合)
@@ -8,7 +8,7 @@ package com.liyunlong.mvp;
  * <li>只有Presenter可以访问，与View隔离
  * </ul>
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:27
  */
 public interface IMVPModel {

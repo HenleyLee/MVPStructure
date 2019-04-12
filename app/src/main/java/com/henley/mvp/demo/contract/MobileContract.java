@@ -1,14 +1,14 @@
-package com.liyunlong.mvp.demo.contract;
+package com.henley.mvp.demo.contract;
 
 import android.content.Context;
 
-import com.liyunlong.mvp.BasePresenter;
-import com.liyunlong.mvp.IMVPView;
-import com.liyunlong.mvp.demo.data.MobileInfo;
-import com.liyunlong.mvp.demo.listeners.LoadListener;
+import com.henley.mvp.BasePresenter;
+import com.henley.mvp.IMVPView;
+import com.henley.mvp.demo.data.MobileInfo;
+import com.henley.mvp.demo.listeners.LoadListener;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/4/13 16:29
  */
 public interface MobileContract {

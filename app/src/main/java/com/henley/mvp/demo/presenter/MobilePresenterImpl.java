@@ -1,15 +1,15 @@
-package com.liyunlong.mvp.demo.presenter;
+package com.henley.mvp.demo.presenter;
 
 import android.content.Context;
 
-import com.liyunlong.mvp.demo.data.MobileInfo;
-import com.liyunlong.mvp.demo.listeners.LoadListener;
-import com.liyunlong.mvp.demo.utils.Utility;
-import com.liyunlong.mvp.demo.contract.MobileContract;
-import com.liyunlong.mvp.demo.model.MobileModelImpl;
+import com.henley.mvp.demo.data.MobileInfo;
+import com.henley.mvp.demo.listeners.LoadListener;
+import com.henley.mvp.demo.utils.Utility;
+import com.henley.mvp.demo.contract.MobileContract;
+import com.henley.mvp.demo.model.MobileModelImpl;
 
 /**
- * Created by liyunlong on 2017/04/13
+ * Created by Henley on 2017/04/13
  */
 public class MobilePresenterImpl extends MobileContract.MobilePresenter implements LoadListener {
 

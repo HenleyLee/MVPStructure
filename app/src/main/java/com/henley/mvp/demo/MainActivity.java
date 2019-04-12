@@ -1,18 +1,17 @@
-package com.liyunlong.mvp.demo;
+package com.henley.mvp.demo;
 
 import android.os.Bundle;
 import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.liyunlong.mvp.MVPViewHelper;
-import com.liyunlong.mvp.demo.contract.MobileContract;
-import com.liyunlong.mvp.demo.data.MobileInfo;
-import com.liyunlong.mvp.demo.presenter.MobilePresenterImpl;
+import com.henley.mvp.MVPViewHelper;
+import com.henley.mvp.demo.contract.MobileContract;
+import com.henley.mvp.demo.data.MobileInfo;
+import com.henley.mvp.demo.presenter.MobilePresenterImpl;
 
 public class MainActivity extends AppCompatActivity implements MobileContract.MobileView, View.OnClickListener {
 

@@ -1,11 +1,11 @@
-package com.liyunlong.mvp.demo.utils;
+package com.henley.mvp.demo.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/4/13 17:33
  */
 public class Utility {

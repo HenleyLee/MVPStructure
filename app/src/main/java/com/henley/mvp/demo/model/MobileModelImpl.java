@@ -1,13 +1,13 @@
-package com.liyunlong.mvp.demo.model;
+package com.henley.mvp.demo.model;
 
-import com.liyunlong.mvp.demo.listeners.LoadListener;
-import com.liyunlong.mvp.demo.net.MobileRunnable;
-import com.liyunlong.mvp.demo.contract.MobileContract;
+import com.henley.mvp.demo.listeners.LoadListener;
+import com.henley.mvp.demo.net.MobileRunnable;
+import com.henley.mvp.demo.contract.MobileContract;
 
 import java.util.concurrent.Executors;
 
 /**
- * Created by liyunlong on 2017/04/13
+ * Created by Henley on 2017/04/13
  */
 public class MobileModelImpl implements MobileContract.Model {
 

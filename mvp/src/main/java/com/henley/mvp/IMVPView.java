@@ -1,4 +1,4 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 import android.support.annotation.StringRes;
 import android.support.annotation.UiThread;
@@ -11,7 +11,7 @@ import android.support.annotation.UiThread;
  * <li>由Presenter来负责更新UI
  * </ul>
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:27
  */
 public interface IMVPView {

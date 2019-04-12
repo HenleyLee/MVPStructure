@@ -1,7 +1,7 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:52
  */
 public class MVPViewNotAttachedException extends RuntimeException {

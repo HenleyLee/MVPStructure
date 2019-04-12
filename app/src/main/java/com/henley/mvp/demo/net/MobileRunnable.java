@@ -1,11 +1,11 @@
-package com.liyunlong.mvp.demo.net;
+package com.henley.mvp.demo.net;
 
 import android.text.TextUtils;
 import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
-import com.liyunlong.mvp.demo.data.MobileInfo;
-import com.liyunlong.mvp.demo.listeners.LoadListener;
+import com.henley.mvp.demo.data.MobileInfo;
+import com.henley.mvp.demo.listeners.LoadListener;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import java.net.URL;
 /**
  * 下载任务
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/4/11 18:32
  */
 public class MobileRunnable implements Runnable {

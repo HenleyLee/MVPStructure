@@ -1,7 +1,7 @@
-package com.liyunlong.mvp.demo.data;
+package com.henley.mvp.demo.data;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/4/13 17:44
  */
 public class MobileInfo {

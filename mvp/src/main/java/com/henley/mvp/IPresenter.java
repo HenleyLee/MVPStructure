@@ -1,4 +1,4 @@
-package com.liyunlong.mvp;
+package com.henley.mvp;
 
 import android.support.annotation.UiThread;
 
@@ -10,7 +10,7 @@ import android.support.annotation.UiThread;
  * <li>从数据接口对象中获取数据并处理，更新View
  * </ul>
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/2/28 15:29
  */
 public interface IPresenter<V extends IMVPView> {
