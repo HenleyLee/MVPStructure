@@ -1,4 +1,4 @@
-# MVPStructure-master —— MVP(Model-View-Presenter)开发模式
+# MVPStructure —— MVP(Model-View-Presenter)开发模式
 
 ## MVP模式要点 ##
 #### MVP模式一般包含四要素： ####
@@ -23,3 +23,8 @@
       (1)View不直接与Model交互，而是通过与Presenter交互来与Model间接交互
       (2)Presenter与View的交互是通过接口来进行的，更有利于添加单元测试
       (3)通常View与Presenter是一对一的，但复杂的View可能绑定多个Presenter来处理逻辑
+
+## APK Demo ##
+
+下载 [APK-Demo](https://github.com/HenleyLee/MVPStructure/raw/master/app/app-release.apk)
+
